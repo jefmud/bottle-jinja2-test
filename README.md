@@ -6,7 +6,7 @@ This is experimental code to see how easily Jinja2 and PeeWee integrate with the
 Dependencies
 
 PeeWee - (Charles Liefer) Compact, expressive, simple ORM on top of Sqlite in-memory or file-based.
-I have used successfully with both Sqlite file based and PostgresSQL databases.  (http://docs.peewee-orm.com/en/latest/)
+I have used successfully with both Sqlite file based and PostgresSQL database implementations.  (http://docs.peewee-orm.com/en/latest/)
 
 Jinja2 - (Armin Ronacher) One of the best web page templating languages available. (http://jinja.pocoo.org/docs/2.10/)
 
