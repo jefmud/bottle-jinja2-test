@@ -1,0 +1,9 @@
+
+{% macro render_field(name, label, value="", type="text", columns=12) %}
+  <div class="row">
+    <div class="input-field col s{{columns}}">
+      <input value="{{ value }}" id="{{ name }}" name="{{ name }}" type="{{ type }}" class="validate" />
+      <label class="active" for="{{ name }}">{{ label }}</label>
+    </div>
+  </div>
+{% endmacro %}
